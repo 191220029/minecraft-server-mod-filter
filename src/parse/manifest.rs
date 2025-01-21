@@ -4,9 +4,9 @@ use std::{
     path::{Path, PathBuf},
 };
 
-use futures::future::join_all;
 use log::info;
 use regex::Regex;
+use reqwest::blocking::Client;
 
 use crate::{
     module::{Module, ServerFlag},
@@ -31,12 +31,15 @@ impl CFManiestParser {
 
     /// Get mod info from the given `verifier`.
     pub fn pull(&mut self, verifier: impl Verifier) {
+        let client = Client::new();
+        let len = self.modules.len();
         tokio::runtime::Runtime::new().unwrap().block_on(async {
-            join_all(self.modules.iter_mut().map(|module| async {
-                verifier.verify(module).await;
-            }))
-            .await
-        });
+            for (i, module) in self.modules.iter_mut().enumerate() {
+                info!("Pulling [{}/{}] {}", i + 1, len, &module.name);
+                verifier.verify(&client, module);
+                info!("Pulling succeeded [{}/{}]", i + 1, len);
+            }
+        })
     }
 
     fn parse_curse_forge_manifest(&mut self) -> Result<(), io::Error> {
@@ -64,7 +67,7 @@ impl CFManiestParser {
     }
 
     /// Write curse forge manifest file to `out_dir`, where `out_dir/server-manifest.html` contains all the server needed mods,
-    /// `out_dir/client-manifest.html` contains all the mods,
+    /// `out_dir/client-manifest.html` contains all the mods, `out_dir/err-manifest.html` contains modules failed to identify.
     pub fn write_curse_forge_manifest(&self, out_dir: &Path) -> Result<(), io::Error> {
         let header = "<ul>\n";
         let tail = "</ul>\n";
@@ -79,7 +82,7 @@ impl CFManiestParser {
                 .iter()
                 .map(|module| module.raw.as_str())
                 .collect::<Vec<&str>>()
-                .join("\n"),
+                .join(""),
             tail
         ))?;
         info!("Write all modules to {}", client_pth.display());
@@ -98,11 +101,29 @@ impl CFManiestParser {
                     None
                 })
                 .collect::<Vec<&str>>()
-                .join("\n"),
+                .join(""),
             tail
         ))?;
         info!("Write server modules to {}", server_pth.display());
 
+        let server_pth = out_dir.join("err-manifest.html");
+        let f = File::create(&server_pth)?;
+        let mut writer = BufWriter::new(f);
+        writer.write_fmt(format_args!(
+            "{}{}{}",
+            header,
+            self.modules
+                .iter()
+                .filter_map(|module| match module.server_flag {
+                    ServerFlag::ModNotFound(_) | ServerFlag::ServerInfoNotFound(_) =>
+                        Some(module.raw.as_str()),
+                    _ => None,
+                })
+                .collect::<Vec<&str>>()
+                .join(""),
+            tail
+        ))?;
+        info!("Write err modules to {}", server_pth.display());
         Ok(())
     }
 }

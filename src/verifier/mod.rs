@@ -1,10 +1,9 @@
-use async_trait::async_trait;
+use reqwest::blocking::Client;
 
 use crate::module::Module;
 
 pub mod mcmode;
 
-#[async_trait]
 pub trait Verifier {
-    async fn verify(&self, module: &mut Module);
+    fn verify(&self, client: &Client, module: &mut Module);
 }
