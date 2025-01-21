@@ -1,0 +1,13 @@
+[package]
+name = "minecraft-server-mod-filter"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = "1.43.0"
+reqwest = "0.12.12"
+regex = "1.11.1"
+log = "0.4.25"
+env_logger = "0.11.6"
