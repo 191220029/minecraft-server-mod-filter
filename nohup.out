@@ -1,0 +1,323 @@
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Failed to capture mod name from: "<ul>\n"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Yuushya Townscape"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Konkrete"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Puzzles Lib"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Entity Texture Features -"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "TexTrue's Embeddium Options"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "SuperMartijn642's Config Lib"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Lightspeed - Launch optimizations"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Fresh Animations"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Jade 🔍"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "NoChatLag"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Entity Culling Fabric/Forge"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "AtlanAbyss Music Pack"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Integrated Dungeons and Structures"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Complementary Shaders - Reimagined"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "AE2 Things"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Immersive Paintings"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Feature NBT Deadlock Be Gone"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "What Are They Up To"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Shutup Experimental Settings!"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Iron Chests"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Goblin Traders"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Essential Mod"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Citadel"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Enchanting Infuser"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Bookshelf"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Tinkers Construct"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "CullLessLeaves Reforged"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Cucumber Library"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Create Ore Excavation"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Ender Storage 1.8.+"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Applied Energistics 2"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Nature's Compass"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Lightman's Currency"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "ProbeJS"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Ars Nouveau"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Mobs Properties Randomness"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Net Music"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Item Collectors"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Create: Diesel Generators"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Quark"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Timeless and Classics Zero"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Smooth Boot"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Phosphophyllite"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Balm"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "AutoFish for"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Blueprint"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Thermal Integration"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Architectury API"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Industrial Foregoing"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Sound Physics Remastered"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Caelus API"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Just Enough Mekanism Multiblocks"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "WorldEdit"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "MmmMmmMmmMmm"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Presence Footsteps"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Artifacts"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "KeepCuriosInventory"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "InsaneLib"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Corpse"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Repurposed Structures"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Create Central Kitchen"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Pipez"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Glass Panes CTM Fix"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "LootJS: KubeJS Addon"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Atmospheric"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Botania"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "FTB Ultimine"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "FTB Library"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "L_Ender 's Cataclysm"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Item Filters"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Botany Trees"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "LibX"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Patchouli"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Cloth Config API"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Jade Addons"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Explorer's Compass"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "ExtraSounds Next"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "AntiPortals"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Vanilletix"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Create Sifting"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Exquisito"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Decorative Blocks"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Icterine"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Connectedness"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Francium"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Placebo"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Thermal Expansion"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "FancyMenu"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Peculiars"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Entity Model Features"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "KubeJS Create"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Create Enchantment Industry"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Paxi"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Biomancy"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Opotato"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Curios API"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "CodeChicken Lib 1.8.+"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Create"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Just Enough Characters"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Applied Energistics 2 Wireless Terminals"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Masterful Machinery"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "FastSuite"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Mouse Tweaks"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Thermal Foundation"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "FerriteCore"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Mysterious Mountain Lib"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "YUNG's API"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Yuushya 16x"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Chalk"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "KubeJS Botania"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Xaero's World Map"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Game Menu Mod Option"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Oculus"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "MC Connected CTM"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Alex's Mobs"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Titanium"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Better Fps - Render Distance"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "fix GPU memory leak"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Create: Copycats+"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Torcherino"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Falling Leaves"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "AutoRegLib"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Radon"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "CoroUtil"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Botany Pots"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Neapolitan"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Catalogue"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Just Enough Items"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "KubeJS"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Waystones"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Torchmaster"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Clumps"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Drink It!"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "FTB Teams"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Cosmetic Armor Reworked"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Observable"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Simple Backups"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Neat"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Melody"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Modern UI"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Async Locator"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Drippy Loading Screen"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Freecam"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Tool Belt"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "What's That Slot?"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Create Crafts & Additions"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Creeper Firework"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Umapyoi"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Yuushya Modelling"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "AntiGhost"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "YUNG's Better End Island"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Iris & Oculus Flywheel Compat"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "ModernFix"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "EXP Counter"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "KubeJS Thermal"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Entity Collision FPS Fix"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Another Furniture"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "AppleSkin"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Construction Wand"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Tickrate Changer"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "SuperMartijn642's Core Lib"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Discover mod from manifest: "Time in a bottle standalone"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Failed to capture mod name from: "</ul>\n"
+[2025-01-22T02:43:30Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [1/162] Yuushya Townscape
+[2025-01-22T02:43:41Z INFO  minecraft_server_mod_filter::utils] requesting https://search.mcmod.cn/s?key=Yuushya+Townscape&site=&filter=1&mold=0
+[2025-01-22T02:43:41Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://search.mcmod.cn/s?key=Yuushya+Townscape&site=&filter=1&mold=0
+[2025-01-22T02:43:55Z INFO  minecraft_server_mod_filter::utils] requesting https://www.mcmod.cn/class/4656.html
+[2025-01-22T02:43:55Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://www.mcmod.cn/class/4656.html
+[2025-01-22T02:43:55Z INFO  minecraft_server_mod_filter::verifier::mcmode] Mark Yuushya Townscape as ServerNeeded.
+[2025-01-22T02:43:55Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling succeeded [1/162]
+[2025-01-22T02:43:55Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [2/162] Konkrete
+[2025-01-22T02:44:09Z INFO  minecraft_server_mod_filter::utils] requesting https://search.mcmod.cn/s?key=Konkrete&site=&filter=1&mold=0
+[2025-01-22T02:44:09Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://search.mcmod.cn/s?key=Konkrete&site=&filter=1&mold=0
+[2025-01-22T02:44:20Z INFO  minecraft_server_mod_filter::utils] requesting https://www.mcmod.cn/class/4213.html
+[2025-01-22T02:44:21Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://www.mcmod.cn/class/4213.html
+[2025-01-22T02:44:21Z INFO  minecraft_server_mod_filter::verifier::mcmode] Mark Konkrete as ServerInvalid.
+[2025-01-22T02:44:21Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling succeeded [2/162]
+[2025-01-22T02:44:21Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [3/162] Puzzles Lib
+[2025-01-22T02:44:27Z INFO  minecraft_server_mod_filter::utils] requesting https://search.mcmod.cn/s?key=Puzzles+Lib&site=&filter=1&mold=0
+[2025-01-22T02:44:27Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://search.mcmod.cn/s?key=Puzzles+Lib&site=&filter=1&mold=0
+[2025-01-22T02:44:38Z INFO  minecraft_server_mod_filter::utils] requesting https://www.mcmod.cn/class/4580.html
+[2025-01-22T02:44:39Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://www.mcmod.cn/class/4580.html
+[2025-01-22T02:44:39Z INFO  minecraft_server_mod_filter::verifier::mcmode] Mark Puzzles Lib as ServerNeeded.
+[2025-01-22T02:44:39Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling succeeded [3/162]
+[2025-01-22T02:44:39Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [4/162] Entity Texture Features -
+[2025-01-22T02:44:50Z INFO  minecraft_server_mod_filter::utils] requesting https://search.mcmod.cn/s?key=Entity+Texture+Features+-&site=&filter=1&mold=0
+[2025-01-22T02:44:50Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://search.mcmod.cn/s?key=Entity+Texture+Features+-&site=&filter=1&mold=0
+[2025-01-22T02:45:00Z INFO  minecraft_server_mod_filter::utils] requesting https://www.mcmod.cn/class/5862.html
+[2025-01-22T02:45:01Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://www.mcmod.cn/class/5862.html
+[2025-01-22T02:45:01Z INFO  minecraft_server_mod_filter::verifier::mcmode] Mark Entity Texture Features - as ServerInvalid.
+[2025-01-22T02:45:01Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling succeeded [4/162]
+[2025-01-22T02:45:01Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [5/162] TexTrue's Embeddium Options
+[2025-01-22T02:45:09Z INFO  minecraft_server_mod_filter::utils] requesting https://search.mcmod.cn/s?key=TexTrue's+Embeddium+Options&site=&filter=1&mold=0
+[2025-01-22T02:45:09Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://search.mcmod.cn/s?key=TexTrue's+Embeddium+Options&site=&filter=1&mold=0
+[2025-01-22T02:45:09Z ERROR minecraft_server_mod_filter::verifier::mcmode] Fail to get search results from https://search.mcmod.cn/s?key=TexTrue's+Embeddium+Options&site=&filter=1&mold=0.
+[2025-01-22T02:45:09Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling succeeded [5/162]
+[2025-01-22T02:45:09Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [6/162] SuperMartijn642's Config Lib
+[2025-01-22T02:45:19Z INFO  minecraft_server_mod_filter::utils] requesting https://search.mcmod.cn/s?key=SuperMartijn642's+Config+Lib&site=&filter=1&mold=0
+[2025-01-22T02:45:19Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://search.mcmod.cn/s?key=SuperMartijn642's+Config+Lib&site=&filter=1&mold=0
+[2025-01-22T02:45:19Z ERROR minecraft_server_mod_filter::verifier::mcmode] Fail to get search results from https://search.mcmod.cn/s?key=SuperMartijn642's+Config+Lib&site=&filter=1&mold=0.
+[2025-01-22T02:45:19Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling succeeded [6/162]
+[2025-01-22T02:45:19Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [7/162] Lightspeed - Launch optimizations
+[2025-01-22T02:45:34Z INFO  minecraft_server_mod_filter::utils] requesting https://search.mcmod.cn/s?key=Lightspeed+-+Launch+optimizations&site=&filter=1&mold=0
+[2025-01-22T02:45:34Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://search.mcmod.cn/s?key=Lightspeed+-+Launch+optimizations&site=&filter=1&mold=0
+[2025-01-22T02:45:34Z ERROR minecraft_server_mod_filter::verifier::mcmode] Fail to get search results from https://search.mcmod.cn/s?key=Lightspeed+-+Launch+optimizations&site=&filter=1&mold=0.
+[2025-01-22T02:45:34Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling succeeded [7/162]
+[2025-01-22T02:45:34Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [8/162] Fresh Animations
+[2025-01-22T02:45:47Z INFO  minecraft_server_mod_filter::utils] requesting https://search.mcmod.cn/s?key=Fresh+Animations&site=&filter=1&mold=0
+[2025-01-22T02:45:47Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://search.mcmod.cn/s?key=Fresh+Animations&site=&filter=1&mold=0
+[2025-01-22T02:45:47Z ERROR minecraft_server_mod_filter::verifier::mcmode] Fail to get search results from https://search.mcmod.cn/s?key=Fresh+Animations&site=&filter=1&mold=0.
+[2025-01-22T02:45:47Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling succeeded [8/162]
+[2025-01-22T02:45:47Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [9/162] Jade 🔍
+[2025-01-22T02:45:56Z INFO  minecraft_server_mod_filter::utils] requesting https://search.mcmod.cn/s?key=Jade+🔍&site=&filter=1&mold=0
+[2025-01-22T02:45:57Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://search.mcmod.cn/s?key=Jade+🔍&site=&filter=1&mold=0
+[2025-01-22T02:45:57Z ERROR minecraft_server_mod_filter::verifier::mcmode] Fail to get search results from https://search.mcmod.cn/s?key=Jade+🔍&site=&filter=1&mold=0.
+[2025-01-22T02:45:57Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling succeeded [9/162]
+[2025-01-22T02:45:57Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [10/162] NoChatLag
+[2025-01-22T02:46:10Z INFO  minecraft_server_mod_filter::utils] requesting https://search.mcmod.cn/s?key=NoChatLag&site=&filter=1&mold=0
+[2025-01-22T02:46:10Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://search.mcmod.cn/s?key=NoChatLag&site=&filter=1&mold=0
+[2025-01-22T02:46:21Z INFO  minecraft_server_mod_filter::utils] requesting https://www.mcmod.cn/class/8918.html
+[2025-01-22T02:46:21Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://www.mcmod.cn/class/8918.html
+[2025-01-22T02:46:21Z INFO  minecraft_server_mod_filter::verifier::mcmode] Mark NoChatLag as ServerInvalid.
+[2025-01-22T02:46:21Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling succeeded [10/162]
+[2025-01-22T02:46:21Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [11/162] Entity Culling Fabric/Forge
+[2025-01-22T02:46:27Z INFO  minecraft_server_mod_filter::utils] requesting https://search.mcmod.cn/s?key=Entity+Culling+Fabric/Forge&site=&filter=1&mold=0
+[2025-01-22T02:46:27Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://search.mcmod.cn/s?key=Entity+Culling+Fabric/Forge&site=&filter=1&mold=0
+[2025-01-22T02:46:27Z ERROR minecraft_server_mod_filter::verifier::mcmode] Fail to get search results from https://search.mcmod.cn/s?key=Entity+Culling+Fabric/Forge&site=&filter=1&mold=0.
+[2025-01-22T02:46:27Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling succeeded [11/162]
+[2025-01-22T02:46:27Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [12/162] AtlanAbyss Music Pack
+[2025-01-22T02:46:33Z INFO  minecraft_server_mod_filter::utils] requesting https://search.mcmod.cn/s?key=AtlanAbyss+Music+Pack&site=&filter=1&mold=0
+[2025-01-22T02:46:33Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://search.mcmod.cn/s?key=AtlanAbyss+Music+Pack&site=&filter=1&mold=0
+[2025-01-22T02:46:33Z ERROR minecraft_server_mod_filter::verifier::mcmode] Fail to get search results from https://search.mcmod.cn/s?key=AtlanAbyss+Music+Pack&site=&filter=1&mold=0.
+[2025-01-22T02:46:33Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling succeeded [12/162]
+[2025-01-22T02:46:33Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [13/162] Integrated Dungeons and Structures
+[2025-01-22T02:46:39Z INFO  minecraft_server_mod_filter::utils] requesting https://search.mcmod.cn/s?key=Integrated+Dungeons+and+Structures&site=&filter=1&mold=0
+[2025-01-22T02:46:40Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://search.mcmod.cn/s?key=Integrated+Dungeons+and+Structures&site=&filter=1&mold=0
+[2025-01-22T02:46:40Z ERROR minecraft_server_mod_filter::verifier::mcmode] Fail to get search results from https://search.mcmod.cn/s?key=Integrated+Dungeons+and+Structures&site=&filter=1&mold=0.
+[2025-01-22T02:46:40Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling succeeded [13/162]
+[2025-01-22T02:46:40Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [14/162] Complementary Shaders - Reimagined
+[2025-01-22T02:46:49Z INFO  minecraft_server_mod_filter::utils] requesting https://search.mcmod.cn/s?key=Complementary+Shaders+-+Reimagined&site=&filter=1&mold=0
+[2025-01-22T02:46:49Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://search.mcmod.cn/s?key=Complementary+Shaders+-+Reimagined&site=&filter=1&mold=0
+[2025-01-22T02:46:49Z ERROR minecraft_server_mod_filter::verifier::mcmode] Fail to get search results from https://search.mcmod.cn/s?key=Complementary+Shaders+-+Reimagined&site=&filter=1&mold=0.
+[2025-01-22T02:46:49Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling succeeded [14/162]
+[2025-01-22T02:46:49Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [15/162] AE2 Things
+[2025-01-22T02:47:00Z INFO  minecraft_server_mod_filter::utils] requesting https://search.mcmod.cn/s?key=AE2+Things&site=&filter=1&mold=0
+[2025-01-22T02:47:00Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://search.mcmod.cn/s?key=AE2+Things&site=&filter=1&mold=0
+[2025-01-22T02:47:07Z INFO  minecraft_server_mod_filter::utils] requesting https://www.mcmod.cn/class/6421.html
+[2025-01-22T02:47:07Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://www.mcmod.cn/class/6421.html
+[2025-01-22T02:47:07Z INFO  minecraft_server_mod_filter::verifier::mcmode] Mark AE2 Things as ServerNeeded.
+[2025-01-22T02:47:07Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling succeeded [15/162]
+[2025-01-22T02:47:07Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [16/162] Immersive Paintings
+[2025-01-22T02:47:13Z INFO  minecraft_server_mod_filter::utils] requesting https://search.mcmod.cn/s?key=Immersive+Paintings&site=&filter=1&mold=0
+[2025-01-22T02:47:13Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://search.mcmod.cn/s?key=Immersive+Paintings&site=&filter=1&mold=0
+[2025-01-22T02:47:24Z INFO  minecraft_server_mod_filter::utils] requesting https://www.mcmod.cn/class/6947.html
+[2025-01-22T02:47:24Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://www.mcmod.cn/class/6947.html
+[2025-01-22T02:47:24Z INFO  minecraft_server_mod_filter::verifier::mcmode] Mark Immersive Paintings as ServerNeeded.
+[2025-01-22T02:47:24Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling succeeded [16/162]
+[2025-01-22T02:47:24Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [17/162] Feature NBT Deadlock Be Gone
+[2025-01-22T02:47:37Z INFO  minecraft_server_mod_filter::utils] requesting https://search.mcmod.cn/s?key=Feature+NBT+Deadlock+Be+Gone&site=&filter=1&mold=0
+[2025-01-22T02:47:37Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://search.mcmod.cn/s?key=Feature+NBT+Deadlock+Be+Gone&site=&filter=1&mold=0
+[2025-01-22T02:47:37Z ERROR minecraft_server_mod_filter::verifier::mcmode] Fail to get search results from https://search.mcmod.cn/s?key=Feature+NBT+Deadlock+Be+Gone&site=&filter=1&mold=0.
+[2025-01-22T02:47:37Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling succeeded [17/162]
+[2025-01-22T02:47:37Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [18/162] What Are They Up To
+[2025-01-22T02:47:52Z INFO  minecraft_server_mod_filter::utils] requesting https://search.mcmod.cn/s?key=What+Are+They+Up+To&site=&filter=1&mold=0
+[2025-01-22T02:47:52Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://search.mcmod.cn/s?key=What+Are+They+Up+To&site=&filter=1&mold=0
+[2025-01-22T02:47:52Z ERROR minecraft_server_mod_filter::verifier::mcmode] Fail to get search results from https://search.mcmod.cn/s?key=What+Are+They+Up+To&site=&filter=1&mold=0.
+[2025-01-22T02:47:52Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling succeeded [18/162]
+[2025-01-22T02:47:52Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [19/162] Shutup Experimental Settings!
+[2025-01-22T02:48:06Z INFO  minecraft_server_mod_filter::utils] requesting https://search.mcmod.cn/s?key=Shutup+Experimental+Settings!&site=&filter=1&mold=0
+[2025-01-22T02:48:07Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://search.mcmod.cn/s?key=Shutup+Experimental+Settings!&site=&filter=1&mold=0
+[2025-01-22T02:48:14Z INFO  minecraft_server_mod_filter::utils] requesting https://www.mcmod.cn/class/3448.html
+[2025-01-22T02:48:14Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://www.mcmod.cn/class/3448.html
+[2025-01-22T02:48:14Z INFO  minecraft_server_mod_filter::verifier::mcmode] Mark Shutup Experimental Settings! as ServerInvalid.
+[2025-01-22T02:48:14Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling succeeded [19/162]
+[2025-01-22T02:48:14Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [20/162] Iron Chests
+[2025-01-22T02:48:26Z INFO  minecraft_server_mod_filter::utils] requesting https://search.mcmod.cn/s?key=Iron+Chests&site=&filter=1&mold=0
+[2025-01-22T02:48:27Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://search.mcmod.cn/s?key=Iron+Chests&site=&filter=1&mold=0
+[2025-01-22T02:48:39Z INFO  minecraft_server_mod_filter::utils] requesting https://www.mcmod.cn/class/10895.html
+[2025-01-22T02:48:39Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://www.mcmod.cn/class/10895.html
+[2025-01-22T02:48:39Z INFO  minecraft_server_mod_filter::verifier::mcmode] Mark Iron Chests as ServerNeeded.
+[2025-01-22T02:48:39Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling succeeded [20/162]
+[2025-01-22T02:48:39Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [21/162] Goblin Traders
+[2025-01-22T02:48:52Z INFO  minecraft_server_mod_filter::utils] requesting https://search.mcmod.cn/s?key=Goblin+Traders&site=&filter=1&mold=0
+[2025-01-22T02:48:53Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://search.mcmod.cn/s?key=Goblin+Traders&site=&filter=1&mold=0
+[2025-01-22T02:49:04Z INFO  minecraft_server_mod_filter::utils] requesting https://www.mcmod.cn/class/4955.html
+[2025-01-22T02:49:04Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://www.mcmod.cn/class/4955.html
+[2025-01-22T02:49:04Z INFO  minecraft_server_mod_filter::verifier::mcmode] Mark Goblin Traders as ServerNeeded.
+[2025-01-22T02:49:04Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling succeeded [21/162]
+[2025-01-22T02:49:04Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [22/162] Essential Mod
+[2025-01-22T02:49:12Z INFO  minecraft_server_mod_filter::utils] requesting https://search.mcmod.cn/s?key=Essential+Mod&site=&filter=1&mold=0
+[2025-01-22T02:49:12Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://search.mcmod.cn/s?key=Essential+Mod&site=&filter=1&mold=0
+[2025-01-22T02:49:12Z ERROR minecraft_server_mod_filter::verifier::mcmode] Fail to get search results from https://search.mcmod.cn/s?key=Essential+Mod&site=&filter=1&mold=0.
+[2025-01-22T02:49:12Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling succeeded [22/162]
+[2025-01-22T02:49:12Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [23/162] Citadel
+[2025-01-22T02:49:26Z INFO  minecraft_server_mod_filter::utils] requesting https://search.mcmod.cn/s?key=Citadel&site=&filter=1&mold=0
+[2025-01-22T02:49:26Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://search.mcmod.cn/s?key=Citadel&site=&filter=1&mold=0
+[2025-01-22T02:49:32Z INFO  minecraft_server_mod_filter::utils] requesting https://www.mcmod.cn/class/2232.html
+[2025-01-22T02:49:32Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://www.mcmod.cn/class/2232.html
+[2025-01-22T02:49:32Z INFO  minecraft_server_mod_filter::verifier::mcmode] Mark Citadel as ServerNeeded.
+[2025-01-22T02:49:32Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling succeeded [23/162]
+[2025-01-22T02:49:32Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [24/162] Enchanting Infuser
+[2025-01-22T02:49:44Z INFO  minecraft_server_mod_filter::utils] requesting https://search.mcmod.cn/s?key=Enchanting+Infuser&site=&filter=1&mold=0
+[2025-01-22T02:49:45Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://search.mcmod.cn/s?key=Enchanting+Infuser&site=&filter=1&mold=0
+[2025-01-22T02:49:58Z INFO  minecraft_server_mod_filter::utils] requesting https://www.mcmod.cn/class/5521.html
+[2025-01-22T02:49:58Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://www.mcmod.cn/class/5521.html
+[2025-01-22T02:49:58Z INFO  minecraft_server_mod_filter::verifier::mcmode] Mark Enchanting Infuser as ServerNeeded.
+[2025-01-22T02:49:58Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling succeeded [24/162]
+[2025-01-22T02:49:58Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [25/162] Bookshelf
+[2025-01-22T02:50:05Z INFO  minecraft_server_mod_filter::utils] requesting https://search.mcmod.cn/s?key=Bookshelf&site=&filter=1&mold=0
+[2025-01-22T02:50:06Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://search.mcmod.cn/s?key=Bookshelf&site=&filter=1&mold=0
+[2025-01-22T02:50:18Z INFO  minecraft_server_mod_filter::utils] requesting https://www.mcmod.cn/class/642.html
+[2025-01-22T02:50:18Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://www.mcmod.cn/class/642.html
+[2025-01-22T02:50:18Z INFO  minecraft_server_mod_filter::verifier::mcmode] Mark Bookshelf as ServerNeeded.
+[2025-01-22T02:50:18Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling succeeded [25/162]
+[2025-01-22T02:50:18Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [26/162] Tinkers Construct
+[2025-01-22T02:50:30Z INFO  minecraft_server_mod_filter::utils] requesting https://search.mcmod.cn/s?key=Tinkers+Construct&site=&filter=1&mold=0
+[2025-01-22T02:50:30Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://search.mcmod.cn/s?key=Tinkers+Construct&site=&filter=1&mold=0
+[2025-01-22T02:50:44Z INFO  minecraft_server_mod_filter::utils] requesting https://www.mcmod.cn/class/14022.html
+[2025-01-22T02:50:45Z INFO  minecraft_server_mod_filter::verifier::mcmode] successfully get body from https://www.mcmod.cn/class/14022.html
+[2025-01-22T02:50:45Z INFO  minecraft_server_mod_filter::verifier::mcmode] Mark Tinkers Construct as ServerNeeded.
+[2025-01-22T02:50:45Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling succeeded [26/162]
+[2025-01-22T02:50:45Z INFO  minecraft_server_mod_filter::parse::manifest] Pulling [27/162] CullLessLeaves Reforged

@@ -45,19 +45,21 @@ impl CFManiestParser {
     fn parse_curse_forge_manifest(&mut self) -> Result<(), io::Error> {
         let mut reader = BufReader::new(File::open(&self.pth)?);
         let re = Regex::new(
-            r#"<a href="https://www\.curseforge\.com/minecraft/[^"]+">([^<(]+)([^<])*</a>"#,
+            r#"<a href="https://www\.curseforge\.com/minecraft/[^"]+">(\[[^\[]+\])*([^<(\[]+)([^<])*</a>"#,
         )
         .unwrap();
 
         let mut buf = String::new();
         while reader.read_line(&mut buf)? > 0 {
             if let Some(cpt) = re.captures(&buf) {
+                let name = cpt.get(2).unwrap().as_str().trim();
                 info!(
                     "Discover mod from manifest: {:?}",
-                    cpt.get(1).unwrap().as_str().trim()
+                    name
                 );
+                let name = name.replace("''", "");
                 self.modules
-                    .push(Module::new(cpt.get(1).unwrap().as_str().trim(), &buf))
+                    .push(Module::new(&name, &buf))
             } else {
                 info!("Failed to capture mod name from: {:?}", buf);
             }
