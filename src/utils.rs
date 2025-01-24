@@ -1,4 +1,4 @@
-use std::{thread::sleep, time::Duration};
+use std::{io::Read, thread::sleep, time::Duration};
 
 use fake_user_agent::get_edge_rua;
 use log::info;
@@ -19,4 +19,10 @@ where
     let req = client.get(url).header("User-Agent", agent);
     let resp = req.send()?;
     resp.text()
+}
+
+pub fn cli_pause() {
+    println!("Press any key to exit...");
+    let mut stdin = std::io::stdin();
+    let _ = stdin.read(&mut [0]);
 }

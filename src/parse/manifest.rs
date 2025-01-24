@@ -16,7 +16,7 @@ use crate::{
 pub struct CFManiestParser {
     /// Path to manifest file
     pth: PathBuf,
-    modules: Vec<Module>,
+    pub(crate) modules: Vec<Module>,
 }
 
 impl CFManiestParser {
@@ -45,21 +45,18 @@ impl CFManiestParser {
     fn parse_curse_forge_manifest(&mut self) -> Result<(), io::Error> {
         let mut reader = BufReader::new(File::open(&self.pth)?);
         let re = Regex::new(
-            r#"<a href="https://www\.curseforge\.com/minecraft/[^"]+">(\[[^\[]+\])*([^<(\[]+)([^<])*</a>"#,
+            r#"<a href=("https://www\.curseforge\.com/minecraft/[^"]+")>(\[[^\[]+\])*([^<(\[]+)([^<])*</a>"#,
         )
         .unwrap();
 
         let mut buf = String::new();
         while reader.read_line(&mut buf)? > 0 {
             if let Some(cpt) = re.captures(&buf) {
-                let name = cpt.get(2).unwrap().as_str().trim();
-                info!(
-                    "Discover mod from manifest: {:?}",
-                    name
-                );
+                let link = cpt.get(0).unwrap().as_str().trim();
+                let name = cpt.get(3).unwrap().as_str().trim();
+                info!("Discover mod from manifest: {:?}", name);
                 let name = name.replace("''", "");
-                self.modules
-                    .push(Module::new(&name, &buf))
+                self.modules.push(Module::new(&name, &buf, link))
             } else {
                 info!("Failed to capture mod name from: {:?}", buf);
             }

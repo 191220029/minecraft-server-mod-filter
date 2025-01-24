@@ -73,7 +73,7 @@ mod test_mc_mode_verify {
     #[test]
     fn test_mc_mode_verify() {
         env_logger::init();
-        let mut module = Module::new("Just Enough Resources", "");
+        let mut module = Module::new("Just Enough Resources", "", "");
         McModeVerifier.verify(&Client::new(), &mut module);
 
         assert_eq!(module.server_flag, ServerFlag::ServerInvalid)
