@@ -52,7 +52,7 @@ impl CFManiestParser {
         let mut buf = String::new();
         while reader.read_line(&mut buf)? > 0 {
             if let Some(cpt) = re.captures(&buf) {
-                let link = cpt.get(0).unwrap().as_str().trim();
+                let link = cpt.get(1).unwrap().as_str().trim();
                 let name = cpt.get(3).unwrap().as_str().trim();
                 info!("Discover mod from manifest: {:?}", name);
                 let name = name.replace("''", "");

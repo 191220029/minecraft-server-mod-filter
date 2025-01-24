@@ -1,24 +1,38 @@
 use std::collections::HashSet;
 
-use crate::{cli::CmpModpacks, module::Module, parse::manifest::CFManiestParser, utils::cli_pause};
+use furse::Furse;
+use futures::future::join_all;
 
-pub fn entry(args: CmpModpacks) {
-    match args.cmp() {
+use crate::{
+    cli::CmpModpacks,
+    manifest::{ManifestParser, ModFile},
+    utils::cli_pause,
+};
+
+pub fn entry(args: CmpModpacks, curse_forge: &Furse) {
+    match args.cmp(curse_forge) {
         Ok(_) => (),
         Err(e) => log::error!("Fail to compare packs. Error info: {}", e),
     };
-    cli_pause();
+    cli_pause(0);
 }
 
 impl CmpModpacks {
-    fn cmp(&self) -> Result<(), std::io::Error> {
-        let mut pack_a = CFManiestParser::new(&self.html_a)?
-            .modules
+    fn cmp(&self, curse_forge: &Furse) -> Result<(), std::io::Error> {
+        let mut pack_a = ManifestParser
+            .parse(&self.manifest_a)
+            .files
             .into_iter()
-            .collect::<HashSet<Module>>();
-        log::info!("succeed to parse modpack {}", self.html_a.to_str().unwrap());
-        let pack_b = CFManiestParser::new(&self.html_b)?.modules;
-        log::info!("succeed to parse modpack {}", self.html_b.to_str().unwrap());
+            .collect::<HashSet<ModFile>>();
+        log::info!(
+            "succeed to parse modpack {}",
+            self.manifest_a.to_str().unwrap()
+        );
+        let pack_b = ManifestParser.parse(&self.manifest_b).files;
+        log::info!(
+            "succeed to parse modpack {}",
+            self.manifest_b.to_str().unwrap()
+        );
 
         let mut a_missing = vec![];
         for m in pack_b {
@@ -31,29 +45,41 @@ impl CmpModpacks {
 
         if a_missing.len() > 0 {
             println!(
-                "Pack {} Missing:\n\t {}",
-                self.html_a.to_str().unwrap(),
-                a_missing
-                    .iter()
-                    .enumerate()
-                    .map(|(num, module)| format!("{} {}", num, module.link))
-                    .collect::<Vec<String>>()
-                    .join("\n\t")
+                "Pack {} Missing:\n\t{}",
+                self.manifest_a.to_str().unwrap(),
+                {
+                    a_missing.sort_by(|a, b| a.projectID.cmp(&b.projectID));
+                    tokio::runtime::Runtime::new()
+                    .unwrap()
+                    .block_on(async {
+                        join_all(a_missing.iter().enumerate().map(|(num, module)| async move {
+                            let module = module.pull_mod(curse_forge).await;
+                            format!("{} | {} | {} | {}", num, module.links.website_url, module.name, module.id)
+                        }))
+                        .await
+                    })
+                    .join("\n\t")}
             );
         }
         if pack_a.len() > 0 {
+            let mut pack_a_remaining = pack_a.into_iter().collect::<Vec<_>>();
+            pack_a_remaining.sort_by(|a, b| a.projectID.cmp(&b.projectID));
+
             println!(
-                "Pack {} Missing:\n\t {}",
-                self.html_b.to_str().unwrap(),
-                pack_a
-                    .iter()
-                    .enumerate()
-                    .map(|(num, module)| format!("{} {}", num, module.link))
-                    .collect::<Vec<String>>()
+                "Pack {} Missing:\n\t{}",
+                self.manifest_b.to_str().unwrap(),
+                tokio::runtime::Runtime::new()
+                    .unwrap()
+                    .block_on(async {
+                        join_all(pack_a_remaining.iter().enumerate().map(|(num, module)| async move {
+                            let module = module.pull_mod(curse_forge).await;
+                            format!("{} | {} | {} | {}", num, module.links.website_url, module.name, module.id)
+                        }))
+                        .await
+                    })
                     .join("\n\t")
             );
-        }
-        if a_missing.len() + pack_a.len() == 0 {
+        } else if a_missing.len() == 0 {
             println!("The two packs having the same modlist.")
         }
 

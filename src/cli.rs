@@ -40,8 +40,8 @@ pub struct PickMods {
 pub struct CmpModpacks {
     /// Path to package A's modlist
     #[arg(short, long)]
-    pub(crate) html_a: PathBuf,
+    pub(crate) manifest_a: PathBuf,
     /// Path to package B's modlist
     #[arg(short, long)]
-    pub(crate) html_b: PathBuf,
+    pub(crate) manifest_b: PathBuf,
 }

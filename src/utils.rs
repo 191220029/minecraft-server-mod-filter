@@ -1,4 +1,4 @@
-use std::{io::Read, thread::sleep, time::Duration};
+use std::{io::Read, process::exit, thread::sleep, time::Duration};
 
 use fake_user_agent::get_edge_rua;
 use log::info;
@@ -21,8 +21,15 @@ where
     resp.text()
 }
 
-pub fn cli_pause() {
+#[cfg(windows)]
+pub fn cli_pause(code: i32) -> ! {
     println!("Press any key to exit...");
     let mut stdin = std::io::stdin();
     let _ = stdin.read(&mut [0]);
+    exit(code)
+}
+
+#[cfg(unix)]
+pub fn cli_pause(code: i32) -> ! {
+    exit(code)
 }
