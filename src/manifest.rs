@@ -67,20 +67,13 @@ pub struct ModLoader {
     pub(crate) primary: bool,
 }
 
-#[derive(Deserialize, Hash)]
+#[derive(Deserialize, Hash, PartialEq, Eq)]
 #[allow(non_snake_case, unused)]
 pub struct ModFile {
     pub(crate) projectID: u128,
     pub(crate) fileID: u128,
     pub(crate) required: bool,
 }
-
-impl PartialEq for ModFile {
-    fn eq(&self, other: &Self) -> bool {
-        self.projectID == other.projectID
-    }
-}
-impl Eq for ModFile {}
 
 impl ModFile {
     /// visit api.curseforge to get modfile's detailed info

@@ -50,15 +50,28 @@ impl CmpModpacks {
                 {
                     a_missing.sort_by(|a, b| a.projectID.cmp(&b.projectID));
                     tokio::runtime::Runtime::new()
-                    .unwrap()
-                    .block_on(async {
-                        join_all(a_missing.iter().enumerate().map(|(num, module)| async move {
-                            let module = module.pull_mod(curse_forge).await;
-                            format!("{} | {} | {} | {}", num, module.links.website_url, module.name, module.id)
-                        }))
-                        .await
-                    })
-                    .join("\n\t")}
+                        .unwrap()
+                        .block_on(async {
+                            join_all(
+                                a_missing
+                                    .iter()
+                                    .enumerate()
+                                    .map(|(num, module)| async move {
+                                        let md = module.pull_mod(curse_forge).await;
+                                        format!(
+                                            "{} | {} | {} | {}/{}",
+                                            num,
+                                            md.links.website_url,
+                                            md.name,
+                                            md.id,
+                                            module.fileID
+                                        )
+                                    }),
+                            )
+                            .await
+                        })
+                        .join("\n\t")
+                }
             );
         }
         if pack_a.len() > 0 {
@@ -71,10 +84,15 @@ impl CmpModpacks {
                 tokio::runtime::Runtime::new()
                     .unwrap()
                     .block_on(async {
-                        join_all(pack_a_remaining.iter().enumerate().map(|(num, module)| async move {
-                            let module = module.pull_mod(curse_forge).await;
-                            format!("{} | {} | {} | {}", num, module.links.website_url, module.name, module.id)
-                        }))
+                        join_all(pack_a_remaining.iter().enumerate().map(
+                            |(num, module)| async move {
+                                let md = module.pull_mod(curse_forge).await;
+                                format!(
+                                    "{} | {} | {} | {}/{}",
+                                    num, md.links.website_url, md.name, md.id, module.fileID
+                                )
+                            },
+                        ))
                         .await
                     })
                     .join("\n\t")
